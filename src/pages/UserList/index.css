@@ -1,0 +1,28 @@
+.userlist{
+    flex: 4;
+}
+.userlist-user .user-img{
+ width: 32px;
+ height: 32px;
+ border-radius: 50%;
+ margin-right: 10px;
+}
+.userlist-user{
+    display: flex;
+    align-items: center;
+}
+
+.userlist-edit{
+    border: none;
+    border-radius: 10px;
+    padding:5px 10px;
+    background-color: #3bb077;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.userlist-edit-icon{
+color: red;
+cursor: pointer;
+}
