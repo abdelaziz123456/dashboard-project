@@ -21,8 +21,8 @@ function App() {
      <Sidebar/>
      
      
-     <Route  path="/" component={Home}/>
-    <Route  path="/dashboard-project" component={Home}/>
+     <Route exact  path="/" component={Home}/>
+    <Route exact path="/dashboard-project" component={Home}/>
     <Route exact path="/users" component={UserList}/>
          
        <Route exact path="/user/:userId">
